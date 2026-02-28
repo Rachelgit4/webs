@@ -1,0 +1,66 @@
+/* Page background */
+body {
+  background-color: rgb(247, 233, 216);
+  min-height: 200vh;
+  margin: 0;
+  padding: 0;
+}
+/* Main white container */
+.container {
+  background-color: white;
+  width: 50%;
+  margin: 50px auto 80px auto;
+  border-radius: 10px;
+  padding-bottom: 40px; /* Ensures space below table */
+}
+/* Main image */
+.main-img {
+  width: 93%;
+  height: 350px;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* Content wrapper */
+.content {
+  margin-left: 20px;
+}
+/* Preparation box */
+.prep-box {
+  background-color: rgb(255, 244, 254);
+  width: 93%;
+  border-radius: 10px;
+  padding: 7px 15px;
+}
+.prep-box h3 {
+  color: rgb(168, 46, 86);
+}
+/* Brown section titles */
+.brown-title {
+  color: rgb(129, 74, 34);
+}
+/* Bottom border for ingredients & instructions */
+.lists {
+  width: 90%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+/* Nutrition table */
+.nutrition-table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.nutrition-table tr {
+  border-bottom: 1px solid black;
+}
+.nutrition-table td {
+    padding: 15px;
+}
+.brown-right {
+  color: rgb(129, 74, 34);
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
